@@ -12,6 +12,7 @@ End Sub
 Public Sub Main()
     InitCommonControlsVB
     Sample.Show
+    StylesDemo.Show
 End Sub
 
 

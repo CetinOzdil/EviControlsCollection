@@ -1008,7 +1008,7 @@ Private Sub RunShowBorderOnFocus(RENK As Long, BEVELL As Integer, BEVELDEPTHH As
         DRAWRECT hdc, 0, 0, ScaleWidth + 1, ScaleHeight + 1, &H80000014
         DRAWRECT hdc, -1, -1, ScaleWidth + 1, ScaleHeight + 1, &H80000015
     Else
-        RunXTRA3D COLOR_UniColor(UserControl.BackColor), m_BEVEL, BEVELDEPTH + 3
+        RunXTRA3D COLOR_UniColor(UserControl.BackColor), m_BEVEL, m_BEVELDEPTH + 3
     End If
 error:
 End Sub

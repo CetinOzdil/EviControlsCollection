@@ -349,16 +349,24 @@ Begin VB.Form Sample
          TabIndex        =   11
          Top             =   960
          Width           =   2535
-         _extentx        =   4471
-         _extenty        =   661
-         backcolor       =   14803425
-         caption         =   "&Test"
-         originalpicsizew=   0
-         originalpicsizeh=   0
-         font            =   "Sample.frx":0EB2
-         font            =   "Sample.frx":0EDE
-         showborder      =   -1  'True
-         bevel           =   0
+         _ExtentX        =   4471
+         _ExtentY        =   661
+         Caption         =   "&Test"
+         ButtonStyle     =   3
+         OriginalPicSizeW=   0
+         OriginalPicSizeH=   0
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "MS Sans Serif"
+            Size            =   8.25
+            Charset         =   162
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         BackColor       =   14803425
+         ShowBorder      =   -1  'True
+         BEVEL           =   0
       End
       Begin prjEviCollectionControl.EviProgressBar EviProgressBar3 
          Height          =   255
@@ -397,7 +405,7 @@ Begin VB.Form Sample
       Style           =   1
       Caption         =   "Search Progressbar"
       ForeColor       =   16777215
-      Icon            =   "Sample.frx":0F0A
+      Icon            =   "Sample.frx":0EB2
       BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
          Name            =   "MS Sans Serif"
          Size            =   8.25
@@ -414,13 +422,21 @@ Begin VB.Form Sample
          TabIndex        =   8
          Top             =   960
          Width           =   2535
-         _extentx        =   4471
-         _extenty        =   661
-         caption         =   "&Test"
-         originalpicsizew=   0
-         originalpicsizeh=   0
-         font            =   "Sample.frx":12A4
-         font            =   "Sample.frx":12D0
+         _ExtentX        =   4471
+         _ExtentY        =   661
+         Caption         =   "&Test"
+         ButtonStyle     =   3
+         OriginalPicSizeW=   0
+         OriginalPicSizeH=   0
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "MS Sans Serif"
+            Size            =   8.25
+            Charset         =   162
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
       End
       Begin prjEviCollectionControl.EviProgressBar EviProgressBar2 
          Height          =   255
@@ -466,14 +482,22 @@ Begin VB.Form Sample
          TabIndex        =   5
          Top             =   960
          Width           =   2535
-         _extentx        =   4471
-         _extenty        =   661
-         backcolor       =   8454016
-         caption         =   "&Test"
-         originalpicsizew=   0
-         originalpicsizeh=   0
-         font            =   "Sample.frx":12FC
-         font            =   "Sample.frx":1328
+         _ExtentX        =   4471
+         _ExtentY        =   661
+         Caption         =   "&Test"
+         ButtonStyle     =   3
+         OriginalPicSizeW=   0
+         OriginalPicSizeH=   0
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "MS Sans Serif"
+            Size            =   8.25
+            Charset         =   162
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         BackColor       =   8454016
       End
       Begin prjEviCollectionControl.EviProgressBar EviProgressBar1 
          Height          =   255
