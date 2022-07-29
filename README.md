@@ -1,6 +1,8 @@
 # Evi Controls Collection for VB6 1.2
 Revised and updated version of Visual Basic 6 Evi Controls Collection by Evi Indra Effendi <effendi24@gmail.com> at [Github](https://github.com/Planet-Source-Code/evi-indra-effendi-evi-collection-control-xp-update-v1-1__1-69723)
 
+![Different OSes](https://github.com/CetinOzdil/EviControlsCollection/blob/main/EviStyles.png)
+
 _Only made changes on EviButton, rest of controls are untouched from version 1.1_
 
 #### Changes 
