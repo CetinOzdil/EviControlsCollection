@@ -9,7 +9,7 @@ _Only made changes on EviButton, rest of controls are untouched from version 1.1
 * Added option to adapt OS button style automatically (`ButtonStyleOS`)
 * Made changes to `DefaultColors` behavior to preserve custom colors
 * Made changes to `DefaultColors`and `BackColor` behavior to auto generate `ColorHover` and `ColorPressed` automatically
-* Removed fancy XP style tooltip, which cause owner form to loose focus (Classical tooltip is still working)
+* Removed fancy XP style tooltip, which cause owner form to loose focus (Classic tooltip is still working)
 * Removed `Bevel` and `BevelDepth` options, which feels out of place
 
 #### Notes
