@@ -14,7 +14,7 @@ _Only made changes on EviButton, rest of controls are untouched from version 1.1
 
 #### Notes
 * I didn't bother to implement transition animations of new Windows systems
-* `InitCommonControlsEx` caused crashes on Windows 7 systems so found this mush simpler snippet which works ok so far
+* `InitCommonControlsEx` caused crashes on Windows 7 systems when exiting from application. I found this mush simpler snippet which works ok so far
 
 ``` vba
 Private Declare Function IsUserAnAdmin Lib "shell32" () As Long
